@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Front Cover</title>
+    <link rel="stylesheet" href="styles/frontcover.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <div class="navbarA">
+    <a href="https://www.yelp.com/biz/pho-bamboo-city-of-industry" 
+    target="_blank"> Yelp</a>
+    <a href="https://www.instagram.com/phobamboorestaurant/"
+    target="_blank"> Instagram</a>
+    <a href="https://www.google.com/maps/place/Pho+Bamboo+Vietnamese+Restaurant/@33.9959372,-117.9068052,16z/data=!4m10!1m2!2m1!1spho+bamboo!3m6!1s0x80c32a666e651fd9:0x86cb74ff93b68e35!8m2!3d33.9959372!4d-117.9068052!15sCgpwaG8gYmFtYm9vWgwiCnBobyBiYW1ib2-SARV2aWV0bmFtZXNlX3Jlc3RhdXJhbnSaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTk1kazVMUjJWQkVBReABAPoBBAgAEC4!16s%2Fg%2F1vvdvh3_?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" 
+    target="_blank"> Google</a>
+  </div>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="hamburger">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </label>
+  <div class="language-switch">
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('zh')">中文</button>
+  </div>
+    <div class="dropdown-menu">
+      <a href="dropdown/ourstory.html"
+      data-en="Our Story"
+      data-zh="我们的故事">Our Story</a>
+
+      <a href="dropdown/delivery.html"
+      data-en="Delivery and Catering"
+      data-zh="外卖 和 餐饮服务">Delivery and Catering</a>
+
+    </div>
+    <div class="frontCover">
+      <h1 data-en="Welcome to Pho Bamboo!"
+      data-zh="欢迎来到 Pho Bamboo!">
+      Welcome to Pho Bamboo!
+      </h1>
+
+    <div class="descrip"
+      data-en="World Famous Vietnamese Noodle Soup with One Mission: make people happy with great food and music!"
+      data-zh="世界闻名的越南米粉店，我们的使命是用美食和音乐让大家开心！">
+      World Famous Vietnamese Noodle Soup with One Mission:
+      make people happy with great food and music!
+    </div>
+    </div>
+</div>
+
+<div class="menu-preview">
+  <h1 class="menu-title" data-en="Menu Preview" data-zh="菜单预览">Menu Preview</h1>
+
+  <div class="menu-section">
+    <div class="menu-text">
+      <h2>Phở bò Soup Bo <span data-en="(Beef broth)" data-zh="（牛肉汤底）">(Beef broth)</span></h2>
+
+      <p>Phở Đặc Biệt</p>
+      <p class="dish-desc" data-en="Noodle soup with steak, brisket, tripe, tendon, and meatball" data-zh="牛排、牛腩、牛肚、牛筋和牛肉丸河粉">
+        Noodle soup with steak, brisket, tripe, tendon, and meatball
+      </p>
+
+      <p>Phở Rib Bone</p>
+      <p class="dish-desc" data-en="Noodle soup with rib bone" data-zh="排骨河粉">
+        Noodle soup with rib bone
+      </p>
+
+      <p>Phở Tai</p>
+      <p class="dish-desc" data-en="Noodle soup with ribeye" data-zh="肉眼牛排河粉">
+        Noodle soup with ribeye
+      </p>
+    </div>
+
+    <div class="menu-images">
+      <div class="image-box">PNG</div>
+      <div class="image-box">PNG</div>
+      <div class="image-box">PNG</div>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-images large">
+      <div class="image-box">PNG</div>
+      <div class="image-box">PNG</div>
+      <div class="image-box">PNG</div>
+    </div>
+
+    <div class="menu-text">
+      <h2>Hủ Tiếu Soup Ga <span data-en="(Chicken broth)" data-zh="（鸡汤底）">(Chicken broth)</span></h2>
+
+      <p>Hủ tiếu Hải Sản</p>
+      <p class="dish-desc" data-en="Noodle soup with shrimp, squid, imitation crab meat, and fish ball" data-zh="虾、鱿鱼、蟹肉棒和鱼丸汤粉">
+        Noodle soup with shrimp, squid, imitation crab meat, and fish ball
+      </p>
+
+      <p>Hủ Tiếu Hoành Thánh</p>
+      <p class="dish-desc" data-en="Noodle soup with wontons made with pork" data-zh="猪肉云吞汤粉">
+        Noodle soup with wontons made with pork
+      </p>
+
+      <p>Hủ Tiếu Cá</p>
+      <p class="dish-desc" data-en="Noodle soup with fish" data-zh="鱼片汤粉">
+        Noodle soup with fish
+      </p>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <div class="menu-text">
+      <h2>Món kho <span data-en="(Stews)" data-zh="（炖菜）">(Stews)</span></h2>
+
+      <p>Cà Ri Rib</p>
+      <p class="dish-desc" data-en="Curry with rib and potatoes" data-zh="排骨土豆咖喱">
+        Curry with rib and potatoes
+      </p>
+
+      <p>Bò Kho</p>
+      <p class="dish-desc" data-en="Beef stew with beef shank and carrots" data-zh="牛腱胡萝卜炖牛肉">
+        Beef stew with beef shank and carrots
+      </p>
+    </div>
+
+    <div class="menu-images">
+      <div class="image-box">PNG</div>
+      <div class="image-box">PNG</div>
+    </div>
+  </div>
+
+  <div class="menu-section">
+  <div class="menu-images large">
+    <div class="image-box">PNG</div>
+    <div class="image-box">PNG</div>
+  </div>
+
+  <div class="menu-text">
+    <h2>Thịt Nướng <span data-en="(Grilled Meats)" data-zh="（烤肉类）">(Grilled Meats)</span></h2>
+
+    <p>Cơm Sườn, Heo, Bò, Hoặc Gà Bì Chả Ky</p>
+    <p class="dish-desc"
+       data-en="Rice with steamed pork egg cake, shrimp paste, minced pork skin, pork chop, beef, chicken, or pork"
+       data-zh="米饭配蒸猪肉蛋饼、虾片、猪皮、猪排、猪肉、鸡肉或牛肉">
+      Rice with steamed pork egg cake, shrimp paste, minced pork skin, pork chop, beef, chicken, or pork
+    </p>
+
+    <p>Bún Đặc Biệt</p>
+    <p class="dish-desc"
+       data-en="Vermicelli with shrimp paste, eggroll, homemade spam, with chicken, beef, or pork"
+       data-zh="米粉配虾片、春卷、自制火腿，可选鸡肉、牛肉或猪肉，配鱼露">
+      Vermicelli with shrimp paste, eggroll, homemade spam, with chicken, beef, or pork with fish sauce
+    </p>
+  </div>
+</div>
+
+<div class="menu-section">
+  <div class="menu-text">
+    <h2>Xào <span data-en="(Stir Fry)" data-zh="（炒类）">(Stir Fry)</span></h2>
+
+    <p>Cơm Xào Thập Cẩm Hoặc Hải Sản</p>
+    <p class="dish-desc"
+       data-en="Stir fry with chicken, beef, and, shrimp or seafood"
+       data-zh="炒鸡肉、牛肉、虾或海鲜">
+      Stir fry with chicken, beef, and shrimp, or seafood
+    </p>
+
+    <p>Cơm Chiên Thập Cẩm Hoặc Hải Sản</p>
+    <p class="dish-desc"
+       data-en="Fried rice with chicken, beef, and, shrimp or seafood"
+       data-zh="鸡肉、牛肉、虾或海鲜炒饭">
+      Fried rice with chicken, beef, and shrimp, or seafood
+    </p>
+
+    <p>Hủ Tiếu Hoặc Mì Xào Sốt Trứng Thập Cẩm</p>
+    <p class="dish-desc"
+       data-en="Egg or rice noodle in egg gravy with shrimp, chicken, and, beef or seafood"
+       data-zh="蛋面或河粉配蛋汁，可选虾、鸡肉、牛肉或海鲜">
+      Egg or rice noodle in egg gravy with shrimp, chicken, and beef, or seafood
+    </p>
+
+    <p>Cơm Bò Hoặc Cá Lúc Lắc Trứng</p>
+    <p class="dish-desc"
+       data-en="House plate rice with diced ribeye or fried diced fish in garlic sauce with fried egg"
+       data-zh="招牌米饭配蒜香骰子牛肉或炸鱼块，并附煎蛋">
+      House plate rice with diced ribeye or fried diced fish in garlic sauce with fried egg
+    </p>
+  </div>
+
+  <div class="menu-images large">
+    <div class="image-box">PNG</div>
+    <div class="image-box">PNG</div>
+    <div class="image-box">PNG</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+window.addEventListener("scroll", function() {
+  const title = document.querySelector(".menu-title");
+
+  let scroll = window.scrollY;
+
+  title.style.opacity = Math.max(0, 1 - scroll / 400);
+  title.style.transform = `translateY(${-scroll * 0.3}px)`;
+});
+</script>
+
+<script>
+function setLanguage(language) {
+  const elements = document.querySelectorAll("[data-en]");
+
+  elements.forEach(function(element) {
+    element.textContent = element.getAttribute("data-" + language);
+  });
+
+  document.body.classList.toggle("chinese-mode", language === "zh");
+}
+
+window.addEventListener("scroll", function() {
+  const title = document.querySelector(".menu-title");
+
+  let scroll = window.scrollY;
+
+  title.style.opacity = Math.max(0, 1 - scroll / 400);
+  title.style.transform = `translateY(${-scroll * 0.3}px)`;
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+.navbarA {
+    width: 240px;
+    font-size: 20px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.navbarA a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarA a:hover {
+    color: lightgray;
+}
+
+/* Hide checkbox */
+#menu-toggle {
+    display: none;
+}
+
+/* Hamburger */
+.hamburger {
+    width: 30px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.hamburger div {
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.one {
+    width: 30px;
+}
+
+.two {
+    width: 20px;
+}
+
+.three {
+    width: 25px;
+}
+
+.hamburger:hover .two,
+.hamburger:hover .three {
+    width: 30px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none;
+
+    position: absolute;
+    top: 60px;
+    right: 20px;
+
+    text-align: right;
+    font-family: Ubuntu, sans-serif;
+    z-index: 2;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 0;
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover {
+    color: lightgray;
+}
+
+/* Show menu when hamburger clicked */
+#menu-toggle:checked ~ .dropdown-menu {
+    display: block;
+}

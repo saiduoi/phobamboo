@@ -1,0 +1,53 @@
+.frontCover {
+  position: relative;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-color: #888; /* temporary background */
+  /* background-image: url("food.jpg"); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  }
+
+/* Shadow overlay */
+.frontCover::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Text above shadow */
+.frontCover h1,
+.frontCover .descrip {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.frontCover h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.descrip {
+  max-width: 500px;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.menu-preview {
+  position: center;
+  z-index: 1;
+}
